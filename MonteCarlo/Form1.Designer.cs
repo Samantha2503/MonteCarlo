@@ -114,6 +114,7 @@
             button1.TabIndex = 8;
             button1.Text = "Ejecucion";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -131,6 +132,8 @@
             dataGridView1.Name = "dataGridView1";
             dataGridView1.Size = new Size(240, 150);
             dataGridView1.TabIndex = 10;
+            //dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+
             // 
             // Form1
             // 
